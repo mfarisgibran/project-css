@@ -1,5 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
 
 nav {
@@ -10,23 +11,36 @@ nav {
 nav a {
   color: grey;
   text-decoration: none;
+  margin-right: 16px;
 }
 
 header {
   color: rgb(6, 49, 54);
-  font-size: 32px;  
+  font-size: 32px;
+  text-align: center;
 }
 
 main {
   color: green;
-  font-size: 18px;  
+  font-size: 18px;
+  padding-left: 40px;
+  width: 600px;
 }
 
 ul, ul li a {
   color: brown;
 }
 
+ul li {
+  margin-bottom: 5px;
+}
+
 footer, footer a {
   color: white;
   background-color: darkslategrey;
+}
+
+footer {
+  padding: 20px;
+  margin-top: 100px;
 }
