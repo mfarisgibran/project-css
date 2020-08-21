@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  color: grey;
+  font-size: 20x;  
+}
+
+nav a {
+  color: grey;
+  text-decoration: none;
+}
+
+header {
+  color: rgb(6, 49, 54);
+  font-size: 32px;  
+}
+
+main {
+  color: green;
+  font-size: 18px;  
+}
+
+ul, ul li a {
+  color: brown;
+}
+
+footer, footer a {
+  color: white;
+  background-color: darkslategrey;
+}
